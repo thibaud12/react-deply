@@ -1,0 +1,23 @@
+<div>
+        <Link to="/SignUpModal">
+            <button 
+            onClick={() => toggleModals("signUp")}
+            className="btn btn-success">
+            Inscription
+            </button>
+        </Link>
+
+        <Link to="/SignIpModal">
+            <button 
+            onClick={() => toggleModals("signIn")}
+            className="btn btn-success ms-2">
+            Connexion
+            </button>
+        </Link>
+
+        <button 
+        onClick={logOut}
+        className="btn btn-success ms-2">
+          Partir...
+        </button>
+      </div>
